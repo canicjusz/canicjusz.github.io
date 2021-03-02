@@ -51,7 +51,7 @@ getRoutes.then(({allRoutes, ...obj}) => {
       })
     })
   })
-  page.redirect('/', '/portfolio')
+  page.redirect('/', '/pages/portfolio')
   page.start()
   createNavbar(obj.folders, obj.files)
 })
