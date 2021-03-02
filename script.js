@@ -33,7 +33,6 @@ const md = markdownit({
 
 getRoutes.then(({allRoutes, ...obj}) => {
   allRoutes.forEach(({route, path}) => {
-    console.log(route)
     page(route, () => {
       fetch(path).then(response => 
         response.text()

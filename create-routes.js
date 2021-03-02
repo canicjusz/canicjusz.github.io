@@ -10,7 +10,7 @@ const json = {
 const readDir = (dir, obj) => fs.readdir(dir, (err, dirs) => {
   const files = dirs.filter(directory => directory.includes('.'))
   const folders = dirs.filter(directory => !directory.includes('.'))
-  obj.files = files.map(name => { const path = dir.slice(1) + '/' + name; const route = path.slice(6, -3); json.allRoutes.push({ route, path }); return { name, route } })
+  obj.files = files.map(name => { const path = dir.slice(1) + '/' + name.slice(0, -3); const route = path.slice(6, -3); json.allRoutes.push({ route, path }); return { name, route } })
   obj.folders = folders.map(name=>({name, files: [], folders: []}))
   folders.forEach((name, i) => {
     readDir(dir+'/'+name, obj.folders[i])
