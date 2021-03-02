@@ -45,7 +45,6 @@ getRoutes.then(({allRoutes, ...obj}) => {
           const files = element.getAttribute('files').split(',')
           const folder = element.getAttribute('folder')
           const grid = createGrid(files, folder)
-          console.log(grid)
           element.parentElement.replaceChild(grid, element)
         }
       })
