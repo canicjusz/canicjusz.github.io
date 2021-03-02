@@ -26,7 +26,7 @@ const frontMatter = (str, delimiter = '---') => {
 let navNumber = 1
 const navbarsContainer = document.querySelector('.navbars-container')
 const main = document.querySelector('main')
-const getRoutes = fetch('routes.json').then((response) => response.json())
+const getRoutes = fetch('/routes.json').then((response) => response.json())
 const md = markdownit({
   html: true
 })
