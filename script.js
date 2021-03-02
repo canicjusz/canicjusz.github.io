@@ -33,6 +33,7 @@ const md = markdownit({
 
 getRoutes.then(({allRoutes, ...obj}) => {
   allRoutes.forEach(({route, path}) => {
+    console.log(route)
     page(route, () => {
       fetch(path).then(response => 
         response.text()
@@ -51,7 +52,7 @@ getRoutes.then(({allRoutes, ...obj}) => {
       })
     })
   })
-  page.redirect('/', '/pages/portfolio')
+  page.redirect('/', '/portfolio')
   page.start()
   createNavbar(obj.folders, obj.files)
 })
