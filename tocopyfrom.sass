@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400&family=Mandali&family=Numans&display=swap')
+  
+$gray: #ECECEC
+$dark-gray: #DBDBDB
+$black: #222831
+$blue: #476b8f
+$border-shit: 1px solid $black
+
+html, body, #app
+  background: $gray
+  margin: 0
+  padding: 0
+  width: 100%
+  height: 100%
+
+.hide
+  display: none
+
+.hamburger
+  z-index: 2
+  display: flex
+  cursor: pointer
+  padding: 10px
+  position: fixed
+  width: 40px
+  box-sizing: content-box
+  height: 40px
+  justify-content: space-around
+  flex-direction: column
+
+  &__cheese, &__meat, &__bun
+    position: relative
+    pointer-events: none
+    height: 5px
+    width: 40px
+    background: $black
+    transition: transform 0.3s ease-in-out
+
+  &--clicked .hamburger__cheese
+    transform: translateY(14px) rotate(45deg)
+
+  &--clicked .hamburger__meat
+    transform: rotate(-45deg)
+
+  &--clicked .hamburger__bun
+    transform: translateX(-50px)
+    
+.navbar
+  z-index: 1
+  border-right: $border-shit
+  font: normal 18px 'Numans', sans-serif
+  display: flex
+  flex-direction: column
+  box-sizing: border-box
+  width: 240px
+  height: 100vh
+  position: fixed
+  transform: translateX(0)
+  transition: transform 0.6s ease-in-out
+  background: $gray
+  padding: 60px 0 0 0
+
+  &--hidden
+    transform: translateX(-180px)
+
+    & .element
+      pointer-events: none
+
+.list
+  padding: 0
+  margin: 0
+  color: $black
+
+  .navbar > &-container
+    border-bottom: $border-shit
+
+  &--hidden
+    display: none
+
+  .folder
+    cursor: pointer
+
+  .file
+    color: $black
+
+  .element
+    text-transform: capitalize
+    border-top: $border-shit
+    display: flex
+    align-items: center
+    height: 50px
+
+  .triangle
+    display: inline-block
+    transition: transform 0.2s ease-in-out
+    transform: translateX(5px)
+    clip-path: polygon(50% 100%, 0 0, 100% 0)
+    background: $black
+    width: 10px
+    height: 10px
+
+    &--closed
+      transform: translateX(5px) rotate(-90deg)
+
+main
+  font: 400 18px 'Numans', sans-serif
+  margin-left: 60px
+  padding: 20px
+
+  a
+    color: $blue
+    &:visited
+      color: purple
+
+  h1
+    font: 100 48px 'Frank Ruhl Libre', serif
+
+  h2
+    font: 100 36px 'Frank Ruhl Libre', serif
+
+  li, p
+    margin: 10px 0 10px 0
+  
+  ul, h1, h2
+    margin: 0
+
+  .grid
+    display: flex
+    flex-direction: row
+    align-items: center
+    justify-content: center
+    margin: 20px 0 20px 0
+
+    > .img
+      margin: 0 20px 0 0
+
+@media only screen and (max-width: 1000px)
+  main
+    .grid
+      display: flex
+      flex-direction: column
+      align-items: center
+      justify-content: center
+        
+      > .img
+        margin: 0 0 20px 0
+
+@media only screen and (max-width: 380px)
+  main
+    .grid
+      > .img
+        width: 90%
+
+    h1
+      font: 100 36px 'Frank Ruhl Libre', serif
+
+    h2
+      font: 100 24px 'Frank Ruhl Libre', serif

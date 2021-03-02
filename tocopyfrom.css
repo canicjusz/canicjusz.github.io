@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400&family=Mandali&family=Numans&display=swap");
+html, body, #app {
+  background: #ECECEC;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.hide {
+  display: none;
+}
+
+.hamburger {
+  z-index: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+  padding: 10px;
+  position: fixed;
+  width: 40px;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  height: 40px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.hamburger__cheese, .hamburger__meat, .hamburger__bun {
+  position: relative;
+  pointer-events: none;
+  height: 5px;
+  width: 40px;
+  background: #222831;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+
+.hamburger--clicked .hamburger__cheese {
+  -webkit-transform: translateY(14px) rotate(45deg);
+          transform: translateY(14px) rotate(45deg);
+}
+
+.hamburger--clicked .hamburger__meat {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+.hamburger--clicked .hamburger__bun {
+  -webkit-transform: translateX(-50px);
+          transform: translateX(-50px);
+}
+
+.navbar {
+  z-index: 1;
+  border-right: 1px solid #222831;
+  font: normal 18px 'Numans', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 240px;
+  height: 100vh;
+  position: fixed;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  -webkit-transition: -webkit-transform 0.6s ease-in-out;
+  transition: -webkit-transform 0.6s ease-in-out;
+  transition: transform 0.6s ease-in-out;
+  transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
+  background: #ECECEC;
+  padding: 60px 0 0 0;
+}
+
+.navbar--hidden {
+  -webkit-transform: translateX(-180px);
+          transform: translateX(-180px);
+}
+
+.navbar--hidden .element {
+  pointer-events: none;
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+  color: #222831;
+}
+
+.navbar > .list-container {
+  border-bottom: 1px solid #222831;
+}
+
+.list--hidden {
+  display: none;
+}
+
+.list .folder {
+  cursor: pointer;
+}
+
+.list .file {
+  color: #222831;
+}
+
+.list .element {
+  text-transform: capitalize;
+  border-top: 1px solid #222831;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50px;
+}
+
+.list .triangle {
+  display: inline-block;
+  -webkit-transition: -webkit-transform 0.2s ease-in-out;
+  transition: -webkit-transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
+  -webkit-transform: translateX(5px);
+          transform: translateX(5px);
+  -webkit-clip-path: polygon(50% 100%, 0 0, 100% 0);
+          clip-path: polygon(50% 100%, 0 0, 100% 0);
+  background: #222831;
+  width: 10px;
+  height: 10px;
+}
+
+.list .triangle--closed {
+  -webkit-transform: translateX(5px) rotate(-90deg);
+          transform: translateX(5px) rotate(-90deg);
+}
+
+main {
+  font: 400 18px 'Numans', sans-serif;
+  margin-left: 60px;
+  padding: 20px;
+}
+
+main a {
+  color: #476b8f;
+}
+
+main a:visited {
+  color: purple;
+}
+
+main h1 {
+  font: 100 48px 'Frank Ruhl Libre', serif;
+}
+
+main h2 {
+  font: 100 36px 'Frank Ruhl Libre', serif;
+}
+
+main li, main p {
+  margin: 10px 0 10px 0;
+}
+
+main ul, main h1, main h2 {
+  margin: 0;
+}
+
+main .grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 20px 0 20px 0;
+}
+
+main .grid > .img {
+  margin: 0 20px 0 0;
+}
+
+@media only screen and (max-width: 1000px) {
+  main .grid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  main .grid > .img {
+    margin: 0 0 20px 0;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  main .grid > .img {
+    width: 90%;
+  }
+  main h1 {
+    font: 100 36px 'Frank Ruhl Libre', serif;
+  }
+  main h2 {
+    font: 100 24px 'Frank Ruhl Libre', serif;
+  }
+}
+/*# sourceMappingURL=tocopyfrom.css.map */
