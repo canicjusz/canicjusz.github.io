@@ -77,12 +77,6 @@ function createGrid(files, folder){
   return grid
 }
 
-// function createGrid(href, parent){
-
-  // console.log(href, parent)
-  // parent.appendChild(image)
-// }
-
 function createNavbar(folders, files) {
   const navbar = document.createElement('div')
   const navbarContainer = document.createElement('div')
