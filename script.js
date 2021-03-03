@@ -51,7 +51,7 @@ getRoutes.then(({allRoutes, ...obj}) => {
       })
     })
   })
-  page.redirect('/', '/pages/portfolio')
+  page.redirect('/', '/pages/portfolio.html')
   page('*', ()=>{
     fetch('/error404.txt').then(response =>
       response.text()
