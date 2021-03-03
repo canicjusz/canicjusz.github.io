@@ -53,7 +53,7 @@ getRoutes.then(({allRoutes, ...obj}) => {
   })
   page.redirect('/', '/pages/portfolio')
   page('*', ()=>{
-    fetch('/404.txt').then(response =>
+    fetch('/error404.txt').then(response =>
       response.text()
     ).then(result=>{
       const {body} = frontMatter(result)
