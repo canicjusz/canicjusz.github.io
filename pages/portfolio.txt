@@ -1,6 +1,5 @@
 ---
-title: Portfolio
-lang: en-US
+Portfolio
 ---
 
 # About Me & Portfolio
@@ -14,7 +13,6 @@ Hello, I'm Jan, 16 years old student from Poland. I create websites and webapps,
 
 ## Flashcards
 
-a
 <div class="grid" files="flashcards_1.png,flashcards_2.png,flashcards_3.png" folder="portfolio"></div>
 Technologies used:
 
@@ -33,9 +31,9 @@ Technologies used:
 [Source code](https://github.com/canicjusz/flashcards)
 
 ## Zipper
-
+<div class="grid" files="zipper_1.png,zipper_2.png,zipper_3.png" folder="portfolio"></div>
 My first (but second rewritten) KaiOS app. The main objective of this app is learning by flashcards using spaced repetition method.
-<grid :files="['zipper_1.png', 'zipper_2.png', 'zipper_3.png']" :folder="'portfolio'"/>
+
 Technologies used:
 
 - Vue 3 - framework,
@@ -52,9 +50,9 @@ What I have learned:
 [Source code](https://github.com/canicjusz/Zipper)
 
 ## 10000h
-
+<div class="grid" files="10k_1.png,10k_2.png,10k_3.png" folder="portfolio"></div>
 My second (not reworked yet) KaiOS. Inspired by [10000+ (Hours Tracker) by Yichuan Ju](https://play.google.com/store/apps/details?id=com.yichuanju.tenkplus&hl=pl&gl=US) but with small screen friendly design.
-<grid :files="['10k_1.png', '10k_2.png', '10k_3.png']" :folder="'portfolio'"/>
+
 Technologies used:
 
 - SASS - preprocessor for CSS.

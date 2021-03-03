@@ -38,6 +38,7 @@ getRoutes.then(({allRoutes, ...obj}) => {
         response.text()
       ).then(result => {
         const {head, body} = frontMatter(result)
+        document.title = head ? head + ' - canicjusz.github.io' : 'canicjusz.github.io'
         main.innerHTML = md.render(body)
         const grids = document.querySelectorAll('.grid')
         for(let i = grids.length; i--;){
@@ -51,6 +52,15 @@ getRoutes.then(({allRoutes, ...obj}) => {
     })
   })
   page.redirect('/', '/pages/portfolio')
+  page('*', ()=>{
+    fetch('/404.txt').then(response =>
+      response.text()
+    ).then(result=>{
+      const {body} = frontMatter(result)
+      main.innerHTML = md.render(body)
+      document.title = 'No page found';
+    })
+  })
   page.start()
   createNavbar(obj.folders, obj.files)
 })
