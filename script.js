@@ -6,13 +6,7 @@ const filesLinks = document.querySelectorAll('.navbar__link')
 
 getRoutes.then((routes) => {
   routes.forEach((route) => {
-    page(route, ()=>{
-      console.log('x')
-    })
-  })
-  // page.redirect('/', '/pages/portfolio.html')
-  page('*', ()=>{
-
+    page(route, ()=>{})
   })
   page.start()
 })

@@ -38,8 +38,8 @@ const createFiles = (fromDir = source, toDir = destination) => fs.readdir(fromDi
 
 const editTemplate = () => {
   template = template.replace('<!-- navbar -->', navbars)
-  createFiles()
   fs.writeFileSync('./routes.json', JSON.stringify(routes))
+  fs.writeFileSync('./404.html', template.replace('<!-- content -->', '<h1>Page not found</h1><a href="/pages/portfolio.html">Go back to portfolio</a>'))
 }
 
 const createNavbar = (dir = source) => fs.readdir(dir, (err, dirs) => {
