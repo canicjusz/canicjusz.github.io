@@ -6,12 +6,14 @@ const folderLinks = document.querySelectorAll('.navbar__folder')
 getRoutes.then((routes) => {
   routes.forEach((route) => {
     page(route, ()=>{
-      fetch(route).then(response => response.text()).then(text=>{
-        const dummyDiv = document.createElement('div')
-        dummyDiv.innerHTML = text
-        const newMain = dummyDiv.querySelector('main')
-        main.innerHTML = newMain.innerHTML
-      })
+      if(location.pathname !== route){
+        fetch(route).then(response => response.text()).then(text=>{
+          const dummyDiv = document.createElement('div')
+          dummyDiv.innerHTML = text
+          const newMain = dummyDiv.querySelector('main')
+          main.innerHTML = newMain.innerHTML
+        })
+      }
     })
   })
   page.start()
