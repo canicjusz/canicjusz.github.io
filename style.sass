@@ -7,6 +7,7 @@ $blue: #476b8f
 $border-shit: 1px solid $black
 
 html, body
+  overflow-x: hidden
   background: $gray
   margin: 0
   padding: 0
@@ -80,6 +81,7 @@ html, body
     transform: translateX(0px) !important
 
 main
+  width: calc(100vw - 100px)
   font: 400 18px 'Numans', sans-serif
   padding: 20px
 
@@ -112,6 +114,8 @@ main
 
 @media only screen and (max-width: 1000px)
   main
+    width: calc(100vw - 80px)
+    padding: 10px
     .grid
       display: flex
       flex-direction: column
@@ -123,6 +127,7 @@ main
 
 @media only screen and (max-width: 380px)
   main
+    font: 400 14px 'Numans', sans-serif
     .grid
       &__img
         width: 90%
@@ -132,3 +137,8 @@ main
 
     h2
       font: 100 24px 'Frank Ruhl Libre', serif
+
+@media only screen and (max-width: 280px)
+  main
+    p, a, li
+      word-break: break-all

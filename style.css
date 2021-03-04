@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400&family=Mandali&family=Numans&display=swap");
 html, body {
+  overflow-x: hidden;
   background: #ECECEC;
   margin: 0;
   padding: 0;
@@ -115,6 +116,7 @@ html, body {
 }
 
 main {
+  width: calc(100vw - 100px);
   font: 400 18px 'Numans', sans-serif;
   padding: 20px;
 }
@@ -165,6 +167,10 @@ main .grid__img {
 }
 
 @media only screen and (max-width: 1000px) {
+  main {
+    width: calc(100vw - 80px);
+    padding: 10px;
+  }
   main .grid {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -186,6 +192,9 @@ main .grid__img {
 }
 
 @media only screen and (max-width: 380px) {
+  main {
+    font: 400 14px 'Numans', sans-serif;
+  }
   main .grid__img {
     width: 90%;
   }
@@ -194,6 +203,12 @@ main .grid__img {
   }
   main h2 {
     font: 100 24px 'Frank Ruhl Libre', serif;
+  }
+}
+
+@media only screen and (max-width: 280px) {
+  main p, main a, main li {
+    word-break: break-all;
   }
 }
 /*# sourceMappingURL=style.css.map */
