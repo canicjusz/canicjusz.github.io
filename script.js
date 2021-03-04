@@ -2,26 +2,20 @@ const getRoutes = fetch('/routes.json').then((response) => response.json())
 const main = document.querySelector('main')
 const hamburgers = document.querySelectorAll('.hamburger')
 const folderLinks = document.querySelectorAll('.navbar__folder')
-const filesLinks = document.querySelectorAll('.navbar__link')
 
 getRoutes.then((routes) => {
   routes.forEach((route) => {
-    page(route, ()=>{})
-  })
-  page.start()
-})
-
-for(let i = filesLinks.length; i--;){
-  const element = filesLinks[i]
-  element.addEventListener('click', ()=>{
-    fetch(element.href).then(response => response.text()).then(text=>{
+    page(route, ()=>{
+      fetch(route).then(response => response.text()).then(text=>{
         const dummyDiv = document.createElement('div')
         dummyDiv.innerHTML = text
         const newMain = dummyDiv.querySelector('main')
         main.innerHTML = newMain.innerHTML
       })
+    })
   })
-}
+  page.start()
+})
 
 for(let i = folderLinks.length; i--;){
   const element = folderLinks[i]
