@@ -1,7 +1,7 @@
 const fs = require('fs')
 
-const md = require('markdown-it')({html: true})
-    // mdwfm = md.use(require('markdown-it-front-matter'), fm=>fm)
+const md = require('markdown-it')({html: true}),
+matter = require('gray-matter')
 
 const routes = []
 
@@ -30,17 +30,19 @@ const createFiles = (fromDir = source, toDir = destination) => fs.readdir(fromDi
       matches.forEach(el=>{
         const obj = JSON.parse(el)
         let div = '<div class="grid">'
-        obj.files.forEach(img=>{
-          div+=`<img class="grid__img" src="/static/${obj.folder}/${img}" />`
+        obj.files.forEach(({file, alt})=>{
+          div+=`<img class="grid__img" src="/static/${obj.folder}/${file}" alt="${alt}">`
         })
-        div+= '</div>'
+        div += '</div>'
         string = string.replace(el, div)
       })
     }
-    const html = md.render(string)
-    const file = template.replace('<!-- content -->', html)
-    fs.writeFileSync(toDir+'/'+name.replace('.txt', '.html'), file)
-    if(name === 'portfolio.txt'){
+    const {data, content} = matter(string)
+    const {lang, desc, title} = data
+    const html = md.render(content)
+    const file = template.replace('<!-- content -->', html).replace('<!-- lang -->', lang).replace('<!-- title -->', title).replace('<!-- desc -->', desc)
+    fs.writeFileSync(toDir+'/'+name.replace('.md', '.html'), file)
+    if(name === 'portfolio.md'){
       fs.writeFileSync('./index.html', file)
     }
   })
@@ -59,9 +61,9 @@ const createNavbar = (dir = source) => fs.readdir(dir, (err, dirs) => {
   const files = dirs.filter(directory => directory.includes('.'))
   const folders = dirs.filter(directory => !directory.includes('.'))
   files.forEach((name, i) => { 
-    const nameWithNewExtension = name.replace('.txt', '.html')
+    const nameWithNewExtension = name.replace('.md', '.html')
     const path = dir.replace(source, destination).slice(1) + '/' + nameWithNewExtension; 
-    navbar += `<li class="navbar__element navbar__file"><a class="navbar__link" href="${path}">${name.slice(0, -4)}</a></li>`
+    navbar += `<li class="navbar__element navbar__file"><a class="navbar__link" href="${path}">${name.slice(0, -3)}</a></li>`
     routes.push(path); 
     if(i === files.length - 1 && folders.length === 0){
       navbar += `</ul></div></div>`

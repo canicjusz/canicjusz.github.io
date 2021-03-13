@@ -2,15 +2,28 @@ const getRoutes = fetch('/routes.json').then((response) => response.json())
 const main = document.querySelector('main')
 const hamburgers = document.querySelectorAll('.hamburger')
 const folderLinks = document.querySelectorAll('.navbar__folder')
+// maybe i should move it to fetch idk
+const html = document.querySelector('html')
+const description = document.querySelector('meta[name="description"]')
+const title = document.querySelector('title')
 
 getRoutes.then((routes) => {
   routes.forEach((route) => {
     page(route, ()=>{
       if(location.pathname !== route){
         fetch(route).then(response => response.text()).then(text=>{
-          const dummyDiv = document.createElement('div')
-          dummyDiv.innerHTML = text
-          const newMain = dummyDiv.querySelector('main')
+          const parser = new DOMParser()
+          const virtualDom = parser.parseFromString(text, "text/html")
+          const newHTML = virtualDom.querySelector('html')
+          const newLang = newHTML.lang
+          const newDescription = newHTML.querySelector('meta[name="description"]').content
+          const newTitle = newHTML.querySelector('title').innerText
+          html.lang = newLang
+          description.content = newDescription
+          title.innerText = newTitle
+          console.log(newLang, newDescription, newTitle)
+          document.documentElement.setAttribute('lang', newLang);
+          const newMain = virtualDom.querySelector('main')
           main.innerHTML = newMain.innerHTML
         })
       }
