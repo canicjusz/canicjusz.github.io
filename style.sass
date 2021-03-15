@@ -110,11 +110,10 @@ main
     margin: 20px 0 20px 0
 
     &__img
-      object-fit: scale-down
-      margin: 20px 0 0 0
+      object-fit: contain
+      margin: 0 20px 0 0
 
-      &:first-child
-        margin: 0
+
 
 @media only screen and (max-width: 1000px)
   main
@@ -122,13 +121,14 @@ main
     padding: 10px
     .grid
       flex-direction: column
+      &__img
+        margin: 20px 0 0 0
+        &:first-child
+          margin: 0
 
 @media only screen and (max-width: 380px)
   main
     font: 400 14px 'Numans', sans-serif
-    .grid
-      &__img
-        width: 100%
 
     h1
       font: 300 36px 'Frank Ruhl Libre', serif

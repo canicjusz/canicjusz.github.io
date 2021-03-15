@@ -4,9 +4,14 @@
   "description": "",
   "main": "build.js",
   "dependencies": {
+    "@node-minify/clean-css": "^6.2.0",
+    "@node-minify/core": "^6.2.0",
+    "@node-minify/html-minifier": "^6.2.0",
+    "@node-minify/uglify-js": "^6.2.0",
     "gray-matter": "^4.0.2",
     "markdown-it": "^12.0.4",
-    "markdown-it-front-matter": "^0.2.3"
+    "markdown-it-front-matter": "^0.2.3",
+    "node-minify": "^3.6.0"
   },
   "devDependencies": {},
   "scripts": {

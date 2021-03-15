@@ -1,4 +1,6 @@
 const fs = require('fs')
+const minify = require('@node-minify/core');
+const htmlMinifier = require('@node-minify/html-minifier');
 
 const md = require('markdown-it')({html: true}),
 matter = require('gray-matter')
@@ -30,8 +32,8 @@ const createFiles = (fromDir = source, toDir = destination) => fs.readdir(fromDi
       matches.forEach(el=>{
         const obj = JSON.parse(el)
         let div = '<div class="grid">'
-        obj.files.forEach(({file, alt})=>{
-          div+=`<img class="grid__img" src="/static/${obj.folder}/${file}" alt="${alt}">`
+        obj.files.forEach(({file, alt, size: [x, y]})=>{
+          div+=`<img class="grid__img" src="/static/${obj.folder}/${file}" alt="${alt}" width="${x}" height="${y}">`
         })
         div += '</div>'
         string = string.replace(el, div)
@@ -41,10 +43,15 @@ const createFiles = (fromDir = source, toDir = destination) => fs.readdir(fromDi
     const {lang, desc, title} = data
     const html = md.render(content)
     const file = template.replace('<!-- content -->', html).replace('<!-- lang -->', lang).replace('<!-- title -->', title).replace('<!-- desc -->', desc)
-    fs.writeFileSync(toDir+'/'+name.replace('.md', '.html'), file)
-    if(name === 'portfolio.md'){
-      fs.writeFileSync('./index.html', file)
-    }
+    minify({
+      compressor: htmlMinifier,
+      content: file
+    }).then(min=>{
+      fs.writeFileSync(toDir+'/'+name.replace('.md', '.html'), min)
+      if(name === 'portfolio.md'){
+        fs.writeFileSync('./index.html', min)
+      }
+    })
   })
 })
 

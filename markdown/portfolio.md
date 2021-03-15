@@ -13,7 +13,7 @@ Hello, I'm Jan, 16 years old student from Poland. I create websites and webapps,
 - Discord: janmichalak#6692;
 
 ## Flashcards
-{"files": [{"file": "flashcards_1.png", "alt": "Flashcards' deck menu"}, {"file": "flashcards_2.png", "alt": "Decks' flashcard menu"}, {"file": "flashcards_3.png", "alt": "Training flashcards"}], "folder": "portfolio"}
+{"files": [{"file": "flashcards_1.jpg", "alt": "Flashcards' deck menu", "size": [240, 320]}, {"file": "flashcards_2.jpg", "alt": "Decks' flashcard menu", "size": [240, 320]}, {"file": "flashcards_3.jpg", "alt": "Training flashcards", "size": [240, 320]}], "folder": "portfolio"}
 
 Technologies used:
 
@@ -32,7 +32,7 @@ Technologies used:
 [Source code](https://github.com/canicjusz/flashcards)
 
 ## Zipper
-{"files": [{"file": "zipper_1.png", "alt": "Zip tab"}, {"file": "zipper_2.png", "alt": "Zip file downloaded"}, {"file": "zipper_3.png", "alt": "Unzip tab"}], "folder": "portfolio"}
+{"files": [{"file": "zipper_1.jpg", "alt": "Zip tab", "size": [240, 320]}, {"file": "zipper_2.jpg", "alt": "Zip file downloaded", "size": [240, 320]}, {"file": "zipper_3.jpg", "alt": "Unzip tab", "size": [240, 320]}], "folder": "portfolio"}
 
 My first (but second rewritten) KaiOS app. The main objective of this app is learning by flashcards using spaced repetition method.
 
@@ -52,7 +52,7 @@ What I have learned:
 [Source code](https://github.com/canicjusz/Zipper)
 
 ## 10000h
-{"files": [{"file": "10k_1.png", "alt": "Skills tab"}, {"file": "10k_2.png", "alt": "Circle graph in records tab"}, {"file": "10k_3.png", "alt": "Stats in Records tab"}], "folder": "portfolio"}
+{"files": [{"file": "10k_1.jpg", "alt": "Skills tab", "size": [240, 320]}, {"file": "10k_2.jpg", "alt": "Circle graph in records tab", "size": [240, 320]}, {"file": "10k_3.jpg", "alt": "Stats in Records tab", "size": [240, 320]}], "folder": "portfolio"}
 
 My second (not reworked yet) KaiOS. Inspired by [10000+ (Hours Tracker) by Yichuan Ju](https://play.google.com/store/apps/details?id=com.yichuanju.tenkplus&hl=pl&gl=US) but with small screen friendly design.
 

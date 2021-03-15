@@ -163,13 +163,9 @@ main .grid {
 }
 
 main .grid__img {
-  -o-object-fit: scale-down;
-     object-fit: scale-down;
-  margin: 20px 0 0 0;
-}
-
-main .grid__img:first-child {
-  margin: 0;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin: 0 20px 0 0;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -183,14 +179,17 @@ main .grid__img:first-child {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  main .grid__img {
+    margin: 20px 0 0 0;
+  }
+  main .grid__img:first-child {
+    margin: 0;
+  }
 }
 
 @media only screen and (max-width: 380px) {
   main {
     font: 400 14px 'Numans', sans-serif;
-  }
-  main .grid__img {
-    width: 100%;
   }
   main h1 {
     font: 300 36px 'Frank Ruhl Libre', serif;
