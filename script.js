@@ -9,7 +9,6 @@ const description = document.querySelector('meta[name="description"]')
 const title = document.querySelector('title')
 
 const router = ()=>{
-  console.log(location)
   if(location.pathname === '/'){
     getPage('/index.html')
   }
@@ -38,7 +37,6 @@ const getPage = path => {
   })
 }
 const goTo = route => {
-  console.log(route, location.pathname)
   if(route !== location.pathname){
     history.pushState(null, null, route)
     getPage(route)
