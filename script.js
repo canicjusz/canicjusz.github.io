@@ -35,8 +35,10 @@ const getPage = path => {
   })
 }
 const goTo = route => {
-  history.pushState(null, null, route)
-  getPage(route)
+  if(route !== location.pathname){
+    history.pushState(null, null, route)
+    getPage(route)
+  }
 }
 
 getRoutes.then((routes) => {
