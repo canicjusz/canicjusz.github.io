@@ -2,35 +2,57 @@ const getRoutes = fetch('/routes.json').then((response) => response.json())
 const main = document.querySelector('main')
 const hamburgers = document.querySelectorAll('.hamburger')
 const folderLinks = document.querySelectorAll('.navbar__folder')
+let globalRoutes = []
 // maybe i should move it to fetch idk
 const html = document.querySelector('html')
 const description = document.querySelector('meta[name="description"]')
 const title = document.querySelector('title')
 
-getRoutes.then((routes) => {
-  routes.forEach((route) => {
-    page(route, ()=>{
-      if(location.pathname !== route){
-        fetch(route).then(response => response.text()).then(text=>{
-          const parser = new DOMParser()
-          const virtualDom = parser.parseFromString(text, "text/html")
-          const newHTML = virtualDom.querySelector('html')
-          const newLang = newHTML.lang
-          const newDescription = newHTML.querySelector('meta[name="description"]').content
-          const newTitle = newHTML.querySelector('title').innerText
-          html.lang = newLang
-          description.content = newDescription
-          title.innerText = newTitle
-          console.log(newLang, newDescription, newTitle)
-          document.documentElement.setAttribute('lang', newLang);
-          const newMain = virtualDom.querySelector('main')
-          main.innerHTML = newMain.innerHTML
-        })
-      }
-    })
+const router = ()=>{
+  if(location.pathname === '/'){
+    getPage('/index.html')
+  }
+  const match = globalRoutes.find(route=>route === location.pathname)
+  if(match){
+    getPage(match)
+  }
+}
+
+const getPage = path => {
+  fetch(path).then(response => response.text()).then(text=>{
+    const parser = new DOMParser()
+    const virtualDom = parser.parseFromString(text, "text/html")
+    const newHTML = virtualDom.querySelector('html')
+    const newLang = newHTML.lang
+    const newDescription = newHTML.querySelector('meta[name="description"]').content
+    const newTitle = newHTML.querySelector('title').innerText
+    html.lang = newLang
+    description.content = newDescription
+    title.innerText = newTitle
+    document.documentElement.setAttribute('lang', newLang);
+    const newMain = virtualDom.querySelector('main')
+    main.innerHTML = newMain.innerHTML
   })
-  page.start()
+}
+const goTo = route => {
+  history.pushState(null, null, route)
+  getPage(route)
+}
+
+getRoutes.then((routes) => {
+  globalRoutes = routes
+  document.addEventListener('click', e=>{
+    const el = e.target
+    if(el.tagName === 'A' && globalRoutes.includes(el.getAttribute('href'))){
+      e.preventDefault()
+      goTo(e.target.href)
+
+    }
+  })
+  window.addEventListener("popstate", router);
 })
+
+
 
 for(let i = folderLinks.length; i--;){
   const element = folderLinks[i]

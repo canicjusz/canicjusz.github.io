@@ -59,7 +59,13 @@ const editTemplate = () => {
   template = template.replace('<!-- navbar -->', navbars)
   createFiles()
   fs.writeFileSync('./routes.json', JSON.stringify(routes))
-  // fs.writeFileSync('./404.html', template.replace('<!-- content -->', '<h1>Page not found</h1><a href="/pages/portfolio.html">Go back to portfolio</a>'))
+  const page404 = template.replace('<!-- content -->', '<h1>Page not found</h1><a href="/pages/portfolio.html">Go back to portfolio</a>').replace('<!-- lang -->', 'en').replace('<!-- title -->', '404 | canicjusz').replace('<!-- desc -->', 'No page found on this site') 
+  minify({
+    compressor: htmlMinifier,
+    content: page404
+  }).then(min=>{
+    fs.writeFileSync('./404.html', min)
+  })
 }
 
 const createNavbar = (dir = source) => fs.readdir(dir, (err, dirs) => {
