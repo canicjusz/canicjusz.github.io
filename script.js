@@ -9,12 +9,15 @@ const description = document.querySelector('meta[name="description"]')
 const title = document.querySelector('title')
 
 const router = ()=>{
+  console.log(location)
   if(location.pathname === '/'){
     getPage('/index.html')
   }
   const match = globalRoutes.find(route=>route === location.pathname)
   if(match){
     getPage(match)
+  }else{
+    getPage('/404.html')
   }
 }
 
@@ -35,6 +38,7 @@ const getPage = path => {
   })
 }
 const goTo = route => {
+  console.log(route, location.pathname)
   if(route !== location.pathname){
     history.pushState(null, null, route)
     getPage(route)
@@ -45,9 +49,10 @@ getRoutes.then((routes) => {
   globalRoutes = routes
   document.addEventListener('click', e=>{
     const el = e.target
-    if(el.tagName === 'A' && globalRoutes.includes(el.getAttribute('href'))){
+    const href = el.getAttribute('href')
+    if(href){
       e.preventDefault()
-      goTo(e.target.href)
+      goTo(href)
     }
   })
   window.addEventListener("popstate", router);
