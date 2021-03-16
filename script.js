@@ -46,7 +46,6 @@ getRoutes.then((routes) => {
     if(el.tagName === 'A' && globalRoutes.includes(el.getAttribute('href'))){
       e.preventDefault()
       goTo(e.target.href)
-
     }
   })
   window.addEventListener("popstate", router);
