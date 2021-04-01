@@ -42,7 +42,7 @@ const createFiles = (fromDir = source, toDir = destination) => fs.readdir(fromDi
     const {data, content} = matter(string)
     const {lang, desc, title} = data
     const html = md.render(content)
-    const file = template.replace('<!-- content -->', html).replace('<!-- lang -->', lang).replace('<!-- title -->', title).replace('<!-- desc -->', desc)
+    const file = template.replace('<!-- content -->', html).replace('<!-- lang -->', lang).replace('<!-- title -->', title).replace('<!-- desc -->', desc).replace(/<table>/g, '<div class="table-container"><table>').replace(/<\/table>/g, '</table></div>')
     minify({
       compressor: htmlMinifier,
       content: file
@@ -86,7 +86,7 @@ const createNavbar = (dir = source) => fs.readdir(dir, (err, dirs) => {
   })
   folders.forEach((name) => {
     navNumber++
-    navbar += `<li class="navbar__element navbar__folder" to="${navNumber}">${name}<span class="navbar__traingle"></span></li>`
+    navbar += `<li class="navbar__element navbar__folder" to="${navNumber}">${name}<span class="navbar__triangle"></span></li>`
     createNavbar(dir+'/'+name)
   })
   navbar += `</ul></div></div>`

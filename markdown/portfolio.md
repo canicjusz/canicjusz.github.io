@@ -9,7 +9,7 @@ Hello, I'm Jan, 16 years old student from Poland. I create websites and webapps,
 
 ## Contact me
 
-- Email: [janmichalak@int.pl](mailto:janmichalak@int.pl);
+- Email: &nbsp; [janmichalak@int.pl](mailto:janmichalak@int.pl);
 - Discord: janmichalak#6692;
 
 ## Flashcards
@@ -17,16 +17,16 @@ Hello, I'm Jan, 16 years old student from Poland. I create websites and webapps,
 
 Technologies used:
 
-- [Vuex](https://vuex.vuejs.org/) - state manager,
-- [Naviboard](https://github.com/amanboss9/naviboard) - library for dpad navigation,
-- [Dexie.js](https://dexie.org/) - wrapper for indexedDB,
-- [SASS](https://sass-lang.com/) - preprocessor for CSS.
+- [Vuex](https://vuex.vuejs.org/) &nbsp; - state manager,
+- [Naviboard](https://github.com/amanboss9/naviboard) &nbsp; - library for dpad navigation,
+- [Dexie.js](https://dexie.org/) &nbsp; - wrapper for indexedDB,
+- [SASS](https://sass-lang.com/) &nbsp; - preprocessor for CSS.
   What I have learned:
 - dealing with hardware limitations of low-end, low-resolution screen phones;
 - creating readable layout for low resolution devices;
 - storing data in indexedDB using Dexie.js;
 - how to navigate using Naviboard.
-- exporting apps in [omniSD](https://omnisd.download/) format.
+- exporting apps in &nbsp; [omniSD](https://omnisd.download/) &nbsp; format.
 
 [Try it out, OmniSD needed](https://github.com/canicjusz/flashcards/blob/master/flashcards.zip?raw=true)\
 [Source code](https://github.com/canicjusz/flashcards)
@@ -40,8 +40,8 @@ Technologies used:
 
 - Vue 3 - framework,
 - Naviboard - library for dpad navigation,
-- [JSZip](https://stuk.github.io/jszip/) - library for reading and creating zip files,
-- [FileSaver.js](https://github.com/eligrey/FileSaver.js/) - library which simplifies downloading files,
+- [JSZip](https://stuk.github.io/jszip/) &nbsp; - library for reading and creating zip files,
+- [FileSaver.js](https://github.com/eligrey/FileSaver.js/) &nbsp; - library which simplifies downloading files,
 - SASS - preprocessor for CSS.
 
 What I have learned:
@@ -54,7 +54,7 @@ What I have learned:
 ## 10000h
 {"files": [{"file": "10k_1.jpg", "alt": "Skills tab", "size": [240, 320]}, {"file": "10k_2.jpg", "alt": "Circle graph in records tab", "size": [240, 320]}, {"file": "10k_3.jpg", "alt": "Stats in Records tab", "size": [240, 320]}], "folder": "portfolio"}
 
-My second (not reworked yet) KaiOS. Inspired by [10000+ (Hours Tracker) by Yichuan Ju](https://play.google.com/store/apps/details?id=com.yichuanju.tenkplus&hl=pl&gl=US) but with small screen friendly design.
+My second (not reworked yet) KaiOS. Inspired by &nbsp; [10000+ (Hours Tracker) by Yichuan Ju](https://play.google.com/store/apps/details?id=com.yichuanju.tenkplus&hl=pl&gl=US) &nbsp; but with small screen friendly design.
 
 Technologies used:
 
@@ -70,4 +70,4 @@ Technologies used:
 
 ## Other projects
 
-[antisou.github.io](https://antisou.github.io) - my friend's store. BEWARE OF LOUD MUSIC.
+[antisou.github.io](https://antisou.github.io) &nbsp; - my friend's website.

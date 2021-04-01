@@ -77,6 +77,13 @@ html, body
     &:last-child
       border-bottom: $border-shit
 
+  &__triangle
+    background: $black
+    margin-left: 10px
+    height: 12px
+    width: 12px
+    clip-path: polygon(100% 50%, 0 0, 0 100%)
+
   &--show
     transform: translateX(0px) !important
 
@@ -110,8 +117,21 @@ main
     margin: 20px 0 20px 0
 
     &__img
+      max-width: 100%
       object-fit: contain
       margin: 0 20px 0 0
+th, td
+  border-right: 1px solid $black
+  padding: 5px
+  &:last-child
+    border-right: none
+table
+  border: 1px solid $black
+  border-collapse: collapse
+.table-container
+  overflow: auto
+tr
+  border-bottom: 1px solid $black
 
 
 
