@@ -1,7 +1,7 @@
 ---
 title: Futbala Vortaro | canicjusz
 desc: (eo) Esperanta-angla-pola futbala vortaro. (en) Esperanto-English-Polish football (soccer) dictonary. (pl) Esperanto-angielsko-polski słownik piłkarski.
-lang: ""
+lang: "eo"
 ---
 # Futbala vortaro / Football (soccer) dictonary / Słownik piłkarski
 | Esperanto | English / la angla / angielski | Polish / la pola / polski |
@@ -11,6 +11,10 @@ lang: ""
 | Klubo | Club | Klub |
 | Matĉo | Match | Mecz |
 | Pilko | Ball | Piłka |
+| Rezulto | Result | Wynik |
+| Egalvenko | Draw | Remis |
+| Venko | Win | Wygrana |
+| Malgajno | Loss | Przegrana |
 | Futbalisto | Footballer | Piłkarz |
 | Arbitraciisto | Referee | Sędzia |
 | Stadiono | Stadium | Stadion |

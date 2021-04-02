@@ -178,6 +178,10 @@ main .grid__img {
   margin: 0 20px 0 0;
 }
 
+.date {
+  font-size: 14px;
+}
+
 th, td {
   border-right: 1px solid #222831;
   padding: 5px;

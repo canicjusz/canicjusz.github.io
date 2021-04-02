@@ -27,6 +27,9 @@ const createFiles = (fromDir = source, toDir = destination) => fs.readdir(fromDi
   })
   files.forEach(name=>{
     let string = fs.readFileSync(fromDir+'/'+name).toString()
+    let {birthtime, mtime} = fs.statSync(fromDir+'/'+name)
+    let lastEdit = mtime.getDate()+'/'+Number(mtime.getMonth() + 1)+'/'+mtime.getFullYear()
+    let creationDate = birthtime.getDate()+'/'+Number(birthtime.getMonth() + 1)+'/'+birthtime.getFullYear()
     matches = string.match(/{"files": \[.*\], "folder": ".*"}/g)
     if(matches !== null){
       matches.forEach(el=>{
@@ -42,10 +45,20 @@ const createFiles = (fromDir = source, toDir = destination) => fs.readdir(fromDi
     const {data, content} = matter(string)
     const {lang, desc, title} = data
     const html = md.render(content)
-    const file = template.replace('<!-- content -->', html).replace('<!-- lang -->', lang).replace('<!-- title -->', title).replace('<!-- desc -->', desc).replace(/<table>/g, '<div class="table-container"><table>').replace(/<\/table>/g, '</table></div>')
+    let file = template.replace('<!-- content -->', html).replace('<!-- lang -->', lang).replace('<!-- title -->', title).replace('<!-- desc -->', desc).replace(/<table>/g, '<div class="table-container"><table>').replace(/<\/table>/g, '</table></div>')
+    switch(lang) {
+      case 'eo':
+        date = `</h1><div class="date"><p class="created">Kreita: ${creationDate}</p><p class="edited">Lasta redakto: ${lastEdit}</p></div>`
+        break;
+      case 'pl':
+        date = `</h1><div class="date"><p class="created">Stworzono: ${creationDate}</p><p class="edited">Ostatnia zmiana: ${lastEdit}</p></div>`
+        break;
+      default:
+        date = `</h1><div class="date"><p class="created">Created: ${creationDate}</p><p class="edited">Last edit: ${lastEdit}</p></div>`
+    }
     minify({
       compressor: htmlMinifier,
-      content: file
+      content: file.replace('</h1>', date)
     }).then(min=>{
       fs.writeFileSync(toDir+'/'+name.replace('.md', '.html'), min)
       if(name === 'portfolio.md'){
