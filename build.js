@@ -1,6 +1,8 @@
 const fs = require('fs')
 const minify = require('@node-minify/core');
 const htmlMinifier = require('@node-minify/html-minifier');
+const cleanCSS = require('@node-minify/clean-css');
+const uglifyJS = require('@node-minify/uglify-js');
 
 const md = require('markdown-it')({html: true}),
 matter = require('gray-matter')
@@ -66,6 +68,18 @@ const createFiles = (fromDir = source, toDir = destination) => fs.readdir(fromDi
       }
     })
   })
+
+  minify({
+    compressor: cleanCSS,
+    input: 'style.css',
+    output: 'style.min.css',
+  });
+
+  minify({
+    compressor: uglifyJS,
+    input: 'script.js',
+    output: 'script.min.js',
+  })
 })
 
 const editTemplate = () => {
@@ -83,7 +97,7 @@ const editTemplate = () => {
 
 const createNavbar = (dir = source) => fs.readdir(dir, (err, dirs) => {
   const currNavNumber = navNumber
-  let navbar = currNavNumber === 1 ? `<div class="navbar-container">${hamburger}<div class="navbar-${currNavNumber} navbar" style="z-index: ${currNavNumber}; transform: translateX(-180px);"><ul class="navbar__list">` : `<div class="navbar-container"><div class="navbar-${currNavNumber} navbar" style="z-index: ${currNavNumber}; transform: translateX(-240px);">${hamburger}<ul class="navbar__list">`
+  let navbar = currNavNumber === 1 ? `<div class="navbar-container">${hamburger}<div number="${currNavNumber}" class="navbar-${currNavNumber} navbar" style="z-index: ${currNavNumber}; transform: translateX(-180px);"><ul class="navbar__list">` : `<div class="navbar-container"><div number="${currNavNumber}" class="navbar-${currNavNumber} navbar" style="z-index: ${currNavNumber}; transform: translateX(-240px);">${hamburger}<ul class="navbar__list">`
   const files = dirs.filter(directory => directory.includes('.'))
   const folders = dirs.filter(directory => !directory.includes('.'))
   files.forEach((name, i) => { 
@@ -99,7 +113,7 @@ const createNavbar = (dir = source) => fs.readdir(dir, (err, dirs) => {
   })
   folders.forEach((name) => {
     navNumber++
-    navbar += `<li class="navbar__element navbar__folder" to="${navNumber}">${name}<span class="navbar__triangle"></span></li>`
+    navbar += `<li class="navbar__element navbar__folder" to="${navNumber}">${name}<span class="navbar__triangle" to="${navNumber}"></span></li>`
     createNavbar(dir+'/'+name)
   })
   navbar += `</ul></div></div>`

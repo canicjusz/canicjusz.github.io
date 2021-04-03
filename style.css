@@ -115,8 +115,15 @@ html, body {
   margin-left: 10px;
   height: 12px;
   width: 12px;
-  -webkit-clip-path: polygon(100% 50%, 0 0, 0 100%);
-          clip-path: polygon(100% 50%, 0 0, 0 100%);
+  -webkit-clip-path: polygon(100% 0, 0 0, 50% 100%);
+          clip-path: polygon(100% 0, 0 0, 50% 100%);
+  -webkit-transition: .4s transform ease-in-out;
+  transition: .4s transform ease-in-out;
+}
+
+.navbar__triangle--opened {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
 }
 
 .navbar--show {
@@ -179,7 +186,7 @@ main .grid__img {
 }
 
 .date {
-  font-size: 14px;
+  font-size: 10px;
 }
 
 th, td {
