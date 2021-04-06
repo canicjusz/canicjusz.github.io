@@ -89,6 +89,8 @@ getRoutes.then(setThingsUp)
 
 const hamburgers = document.querySelectorAll('.hamburger')
 const folderLinks = document.querySelectorAll('.navbar__folder')
+const firstNavbar = document.querySelector('.navbar-1')
+const firstHamburger = firstNavbar.previousElementSibling
 
 const classList = content => func => element => element.classList[func](content)
 
@@ -112,8 +114,6 @@ const isElementFromNavbar = element => (/hamburger|navbar/).test(element.classNa
 const closeEverything = () => {
   const openedNavbars = document.querySelectorAll('.navbar--show')
   const openedTriangles = document.querySelectorAll('.navbar__triangle--opened')
-  const firstNavbar = document.querySelector('.navbar-1')
-  const firstHamburger = firstNavbar.previousElementSibling
   removeClickedHamburger(firstHamburger)
   for(let i = openedTriangles.length; i--;){
     removeOpenedTriangle(openedTriangles[i])
