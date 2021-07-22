@@ -1,5 +1,6 @@
 ---
 title: Kiel krei Esperantan klavararanĝon ĉe Vindozo
+description: Ĉu vi ne plu volas uzi programojn de ekstera liveranto por skribi ĉapelliterojn aŭ vi simple volas lerni kiel fari siajn proprajn klavararanĝojn? Se jes, tiu ĉi instrulilo estas por vi!
 ---
 
 <SelectLanguage/>

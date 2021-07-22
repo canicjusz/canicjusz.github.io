@@ -1,3 +1,8 @@
+---
+title: Home
+description: Welcome to my website, it will serve as my blog and portfolio.
+---
+
 <script setup>
 import Cube from './components/Cube.vue'
 </script>

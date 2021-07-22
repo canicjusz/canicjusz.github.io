@@ -52,17 +52,17 @@ const pagesBase = [{ type: "file", name: "Home", href: "/" }];
 const pages = getPages(baseDir, basePath, pagesBase);
 
 module.exports = {
-  lang: "en",
+  lang: "en-US",
   base: "/",
-  title: "canicjusz.github.io",
+  title: "canicjusz in English",
   locales: {
     "/pages/Esperanto/": {
       lang: "eo",
-      title: "ax",
+      title: "canicjusz Esperante",
     },
     "/pages/Polski/": {
       lang: "pl",
-      title: "ax",
+      title: "canicjusz po polsku",
     },
   },
   customData: {
