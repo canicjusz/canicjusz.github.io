@@ -1,0 +1,21 @@
+{
+  "name": "canicjusz-vitepress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "sass": "^1.35.2",
+    "vitepress": "^0.12.2"
+  },
+  "scripts": {
+    "dev": "vitepress dev src",
+    "build": "vitepress build src && trash docs && ncp src/.vitepress/dist docs",
+    "serve": "vitepress serve src"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "markdown-it-attrs": "^4.0.0",
+    "ncp": "^2.0.0",
+    "trash-cli": "^4.0.0"
+  }
+}
