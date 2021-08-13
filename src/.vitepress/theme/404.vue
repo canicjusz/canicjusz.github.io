@@ -1,6 +1,3 @@
-<template>
-  <h1>
-    Ta strona nie istnieje / This page doesn't exist / Ĉi tiu retejo ne ekzistas
-  </h1>
-  <a href="/">Home</a>
-</template>
+<script setup lang="ts">
+window.location.replace("https://canicjusz.github.io/404.html");
+</script>
