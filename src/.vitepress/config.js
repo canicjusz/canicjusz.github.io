@@ -75,5 +75,4 @@ module.exports = {
       md.use(markdownItAttrs);
     },
   },
-  outDir: "a",
 };

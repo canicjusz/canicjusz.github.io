@@ -1,7 +1,6 @@
-<script setup lang="ts">
-import { useRouter } from "vitepress";
-const router = useRouter();
-router.go("/404");
-</script>
-
-<template></template>
+<template>
+  <h1>
+    Ta strona nie istnieje / This page doesn't exist / Ĉi tiu retejo ne ekzistas
+  </h1>
+  <a href="/">Home</a>
+</template>
