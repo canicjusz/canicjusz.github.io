@@ -170,6 +170,7 @@ main
   padding: 20px
 
   h1
+
     font: 300 3rem 'Lora', serif
 
   h2
@@ -178,8 +179,11 @@ main
   li, p
     margin: 10px 0 10px 0
 
-  ul, h1, h2
+  ul
     margin: 0
+
+  h1, h2
+    margin: 20px 0 20px 0
 
 .center
   width: 100%
