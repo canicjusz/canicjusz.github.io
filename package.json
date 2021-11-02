@@ -16,6 +16,7 @@
     "gray-matter": "^4.0.3",
     "markdown-it-attrs": "^4.0.0",
     "ncp": "^2.0.0",
-    "trash-cli": "^4.0.0"
+    "trash-cli": "^4.0.0",
+    "vite": "^2.6.13"
   }
 }
