@@ -147,8 +147,8 @@ html, body
     transform: translateX(240px)
 
 .content-container
+  width: 100%
   max-width: 960px
-
 
 .index
   &__title
@@ -192,21 +192,27 @@ main
   img
     max-width: 100%
 
-// th, td
-//   border-right: 1px solid $black
-//   padding: 5px
-//   &:last-child
-//     border-right: none
-// table
-//   border: 1px solid $black
-//   border-collapse: collapse
-// .table-container
-//   overflow: auto
-// tr
-//   border-bottom: 1px solid $black
+table
+  min-width: 700px
+  border-collapse: collapse
+  border: $border-shit
+  border-bottom: none
+  td, th
+    border-left: $border-shit
+    padding: 5px
+    &:first-child
+      border-left: none
+  tr
+    border-bottom: $border-shit
+  img
+    width: 100%
+.table-container
+  width: 100%
+  overflow: auto
 
 @media only screen and (max-width: 1000px)
   main
+    width: calc(100vw - 61px)
     padding: 10px
     .grid
       flex-direction: column
