@@ -2,6 +2,7 @@ const fs = require("fs");
 const path = require("path");
 const matter = require("gray-matter");
 const markdownItAttrs = require("markdown-it-attrs");
+const markdonwItContainer = require("markdown-it-container");
 
 const links = {};
 
@@ -72,7 +73,7 @@ module.exports = {
   markdown: {
     anchor: { permalink: false },
     config: (md) => {
-      md.use(markdownItAttrs);
+      md.use(markdownItAttrs).use(markdonwItContainer, "table-container");
     },
   },
 };
