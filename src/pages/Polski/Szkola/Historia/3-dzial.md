@@ -106,7 +106,7 @@ Imperium, nad którym nigdy nie zachodzi słońce - imperium tak rozległe, że 
 | --- | --- | --- | --- | --- |
 | Powstanie Dipo Negoro | 1825-1830 | Holenderskie Indie Wschodnie | Trudna sytuacja autochtonów, konflikt religijny między Holendrami a ludnością muzułmańską | Zwycięstwo Holendrów, narzucanie dodatkowych podatków |
 | I wojna opiumowa | 1839-1841 | Chiny | Ingerencja Wielkiej Brytnii w wewnętrzne sprawy Chin, sprzeciw władz chińskich wobec sprowadzania opium | Klęska Chin, otwarcie portów dla obcych statków, strefy wpływów Europejczyków, oddanie Hongkongu Brytyjczykom. |
-| Powstanie tajpingów 1851-1864 | Chiny | Opór wobec władzy uległej kolonizatorom i niesprawiedliwości społrcznej. | Osłabienie Chin, wielkie straty w ludziach, rozszerzenie wpływów mocarstw europejskich. |
+| Powstanie tajpingów | 1851-1864 | Chiny | Opór wobec władzy uległej kolonizatorom i niesprawiedliwości społrcznej. | Osłabienie Chin, wielkie straty w ludziach, rozszerzenie wpływów mocarstw europejskich. |
 | Powstanie sipajów | 1857-1859 | Indie | walka Brytyjczyków z lokalnumi tradycjami i podziałem kastowym. | Klęska powstańców, centralizacja władzy, pozostawienie podziału kastowego i mniejsza ingerencja w tradycje. |
 | Ruch czarnych flag | Od początku lat 80. XIX w. | Wietnam | Kolonia francuska, wspieranie przez Francuzów dotąd dyskryminowanych wyznawców katolicyzm | Stłumienie ruchu i zbrojna pacyfikacja Wietnamu |
 | Powstanie Mahdiego | 1881-1899 | Sudan | Ekspancja Brytyjczków w Egipcie i Sudanie, sprzeciw wobec władzy Brytyjczyków i Egipcjan, utworzenie państwa islamskiego. | Klęska mahdystów i upadek ich państwa. |
@@ -148,4 +148,40 @@ Teoria ewolucji stworzona przez Darwina, wyjaśniająca powstawanie gatunków do
 
 No kobiety zaczeły walczyć o swoje prawa itd. Te kobiety nazywano emancypantkami i walczyły o: dostęp do wykształcenia, zmianny w prawie rodzinnym, równouprawnienie ekonomiczne i prawa wyborcze. I powoli im się udawało te postulaty realizować. Sufrażystki walczyły głównie o prawa wyborcze i najpierw nadano im to prawo w stanie Wyoming w 1869. W Polsce kobiety dostały prawa wyborcze w 1918 wraz z odzyskaniem niepodległości.
 
-## 7.
+## 7. Epoka pozytywizmu
+
+### Scientyzm i pozytywizm
+
+Scjentyzm odrzuca emocjonalne, irracjonalne podejście do nieznanych zjawisk. Scjentyści za jedyne narzędzie poznawania świata uznawali metody naukowe.
+
+### Literatura pozytywistyczna
+
+W literaturze tego okresu pojawił się realizm i naturalizm. Autorzy powieści realistycznych przedstawiali obraz społeczeństwa epoki industrialnej i życia ludzi biednych. W ten sposób kształtowano w społeczeństwie wrażliwość na tematy wcześniej bagatelizowane.
+
+### Sztuka i architektura
+
+W połowie XIX w. zaczął kształtować się realizm - przedstawianie życia codziennego. Często ukazywały się dzieła, które zawierały przekaz moralny, polityczny.
+
+W drugiej połowie XIX w. powstał impresjonizm - malowanie pejzaży, scen z życia miejskiego za pomocą refleksów światła i czystych barw.
+
+W architekturze nawiązywano do stylów minionych epok, nazwano to historyzmem.
+
+Pod koniec XIX w. historyzm zaczęła wypierać secesja, którą charakteryzowała bogata ornamentyka, motywy roślinne, geometryczne i zwierzęce. 
+
+### Nowe nurty
+
+Oprócz impresjonizmu i secesji w epoce pozytywizmu powstały inne nurty:
+- Symbolizm - nawiązuje w formie do malarstwa realistycznego, skupia się jednak na obrazowaniu idei i emocji.
+
+![alt text](/3-dzial/krolowa.jpg) {.center}
+- Kubizm - opiera się na przedstawianiu malowanych obiektów jako brył, został zainicjowany przez Georges’a Braque’a i Pabla Picassa.
+
+![alt text](/3-dzial/mandolina.jpg) {.center}
+
+### Kultura masowa
+
+Powstaje zjawisko kultury masowej, czyli kierowanej do przeciętnego odbiorcy. Prasa zaczyna wychodzić w coraz większych nakładach, ukazują się w niej komiksy, wiadomości, powieści i reklamy. Dzienniki, ilustrowane magazyny i literatura popularna. Narodziło się i zaczeło się szybko rozwijać kino.
+
+### Aktywny Wypoczynek
+
+Coraz więcej osób zaczyna aktywnie spędzać czas wolny. Upowszechniły się turystyka, kultura fizyczna i sport. Z czasem sport zaczęto brać na serio, powstawały profesionalne kluby sportowe, a w 1896 wskrzeszono igrzyska. W 1907 powstał nowy system wychowania - skauting. Polegał na uzupełnieniu kształcenia szkolnego poprzez rozwój sprawnościowy w duchu patriotyzmu i poszanowania natury. Rodziny zaczęły implementować ten system - starsze rodzeństwo jest wzorem dla młodszych dzieci i się nim opiekuje.
