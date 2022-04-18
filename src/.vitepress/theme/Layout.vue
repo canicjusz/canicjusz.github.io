@@ -187,6 +187,8 @@ main
 
 .center
   width: 100%
+  display: grid
+  justify-content: center
   text-align: center
 
   img

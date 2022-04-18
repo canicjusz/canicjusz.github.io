@@ -12,7 +12,7 @@ description: Notatka dotycząca III rozdziału podręcznika "Poznać przeszłoś
 - Odwilż posewastopolska - liberalizacja polityki wewnętrznej Rosji przez Aleksandra II po przegranej wojnie krymskiej z Imperium Osmańskim.
 - Panslawizm - wszyscy Słowianie powinni być pod protektoratem cara.
 - Risorgimento - ruch, którego celem było budzenie włoskiej świadomości narodowej i dążenie do zjednoczenia Włoch.
-- tysiąca czerwonych koszul - grupa bojowników zorganizowana przez Garibaldiego, która walczyła o6d Sycyli po Neapol.
+- tysiąca czerwonych koszul - grupa bojowników zorganizowana przez Garibaldiego, która walczyła od Sycyli po Neapol.
 
 ### Postacie:
 
