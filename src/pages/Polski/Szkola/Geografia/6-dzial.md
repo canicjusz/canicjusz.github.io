@@ -135,7 +135,7 @@ Niesiony materiał skalny osadza się i tworzy wydmy, których wyróżniamy trzy
 
 ![alt text](/geo-6-dzial/barchan.png) {.center}
 
-- Barchany - trochę wilgotniejsze, skąpa roślinność.
+- Wydmy paraboliczne - trochę wilgotniejsze, skąpa roślinność.
 
 ![alt text](/geo-6-dzial/paraboliczna.png) {.center}
 
