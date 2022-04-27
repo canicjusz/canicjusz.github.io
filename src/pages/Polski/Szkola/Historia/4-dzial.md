@@ -66,7 +66,7 @@ Oficjalnie rządził Rząd Tymczasowy, jedak zaistniał drugi ośrodek - Tymacza
 
 Nie wszyscy zgadzali się na władzę sowiecką. Z części armii carskiej powstała Biała Gwardia, kontrolowali oni większą część terytorium. Biała Gwardia chciała przywrócić na stołek carai tak wiosną 1919 zaczęła się wojna domowa z Robotniczo-Chłopską Armią Czerwoną Lwa Trockiego. Armia Czerwona była konsekwentna w swoich mordach i się nie pieprzyli, dlatego wygrali w 1920. Następnie w 1922 powstało ZSRS.
 
-## Klęska państw centralnych
+## 4. Klęska państw centralnych
 
 ### Wojna na morzach
 
