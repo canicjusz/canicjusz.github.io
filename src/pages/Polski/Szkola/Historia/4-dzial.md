@@ -13,8 +13,8 @@ Przyczyny wojny:
 - Zamach w Sarajewie.
 
 Sojusze:
-- Ententa (trójporozumienie): Francja, Wielka Brytania, Rosja
-- Państwa Centralne (trójprzymierze): Niemcy, Austro-Węgry, Włochy
+- Ententa: Francja, Wielka Brytania, Rosja
+- Państwa Centralne: Niemcy, Austro-Węgry, Imperium Osmańskie
 
 ![alt text](/4-dzial/mapa-1.jpeg)
 
