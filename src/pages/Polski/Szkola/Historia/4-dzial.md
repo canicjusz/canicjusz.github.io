@@ -65,3 +65,60 @@ Oficjalnie rządził Rząd Tymczasowy, jedak zaistniał drugi ośrodek - Tymacza
 ### Wojna domowa
 
 Nie wszyscy zgadzali się na władzę sowiecką. Z części armii carskiej powstała Biała Gwardia, kontrolowali oni większą część terytorium. Biała Gwardia chciała przywrócić na stołek carai tak wiosną 1919 zaczęła się wojna domowa z Robotniczo-Chłopską Armią Czerwoną Lwa Trockiego. Armia Czerwona była konsekwentna w swoich mordach i się nie pieprzyli, dlatego wygrali w 1920. Następnie w 1922 powstało ZSRS.
+
+## Klęska państw centralnych
+
+### Wojna na morzach
+
+Brytole odniali niemców i austriaków od dostaw. Dlatego Niemcy zaczęły stosować U-booty. W marcu 1915 ogłoszona zostaje nieograniczona wojna podwodna - łodzie powodne prócz obiektów militarnych zaczęły atakować statki handlowe i pasażerskie. Po ataku na parowiec pasażerski Lusitania (ludzie się zmadowali) Niemcy zobowiązały się zaprzestać ataki na obiekty cywilne. W trakcie maja i czerwca 1916 trwała największa bitwa morska - bitwa jutlandzka. Którą ani angole, ani szwaby nie wygrały.
+
+### USA przystępuje do wojny
+
+USA było neutralne, handel w trakcie wojny był giga opłacalny. Jednak amerykanie z czasem coraz bardziej chcieli zemścić się na Niemcach (Lusitania). 6 kwietnia USA wypowiedziało wojnę Niemcom.
+
+### Pokój w Brześciu
+
+W grundiu 1917 rozpoczęły się rozmowy pokojowe między państwami centralnymi a bolszewikami. 3 marca 1918 podpisano pokój w Brześciu między państwami centralnymi a Rosją Sowiecką.
+
+### Konsekwencje
+
+- Panśtwa centralne przejebały wojnę.
+- Dużo osób zmarło od chorób, a w wyniku działalności zbrojnej aż 8,5 mln.
+- Niemcy i Rosja stały się republikami.
+- Rozpadły się Austro-Węgry.
+- Pojawienie się multum państw (m.in. Polska).
+- Partie lewicowe stają się główną siłą.
+- Przemysł zrujnowany, panśtwa toneły w długach, kryzys gospodarczy.
+- Emancypacja kobiet, w wielu państwach zyskują prawa wyborcze.
+
+## 5. Polacy na frontach wielkiej wojny 
+
+### Legiony polskie
+Wojsko uformowane w 1914 u boku Austro-Węgier, nawiązują do tradycji jednostek - gen. Jana Henryka Dąbrowskiego. Miały powstać 2 legiony: wschodni, zachodni. Ten pierwszy wkrotce rozwiązali. W grudniu 1914 przekształcono go w I Brygade Legionów Polskich pod dow. Piłsudzkiego.Chrzest bojowy w bitwie pod Limanową. 
+
+### Legion puławski 
+
+Wojsko stworzone w 1914 przez KMP u boku Rosji przeciwko panstwom centralnym. Liczył 900 żołnierzy. Po zajęciu przez wosjko rosyjskie został przekształcony w Brygady Strzelców Polskich. 
+
+### Wojsko polskie we Francji
+
+Werbunek bajończyków, Roman Dmowski wniósł wniosek o zorganizowanje armii, poparty przez KMP.  Ignacy Jan Paderewski zachęcił ochotników zza oceanu do wstapie ja do armii oraz Polaków mieszkających we Francji. Założono Błękitną armię(kolor munduru) pod dow. gen. Jìzefa Hallera 
+
+## 6. Sprawa polska na arenie międzynarodowej
+
+### Akt 5.11
+
+5 listopada 1916 gubernatorzy Niemiec i Austrii wydali Akt 5 listopada, gdzie, by zacchęcić Polaków do wstępowania do wojska, zapowiedziano powstanie samodzielnego państwa polskiego. Był to pierwszy taki dokument wydany przez zaborców
+
+### Wilson o Polsce
+
+8 stycznia 1918 Thomas Woodrow Wilson (amerykański prezydent) przedstawił Kongresowi swój 14-punktowy program mający zagwarantować pokój na świecie. Punkt 13 dotyczył Polski - powstanie niepodległego państwa z ziem w większości zamieszkanych przez Polaków z gwarancja dostpu do morza. Duży wpływ na to miał Ignacy Jan Paderewski.
+
+### Polacy na konferencji pokojowej w Paryżu
+
+W styczniu 1919 w Paryżu rozpoczęła się konferencja pokojowa, podczas której miał być wypracowany nowy porządek w Europie. Sprawę Polską reprezentowała delegacja, na której czele stali Jan Paderewski i Roman Dmowski. W wyniku rozmów ostatecznym wynikiem było:
+- przyznanie Polsce Pomorza Gdańskiego, Wielkopolski.
+- Na Górnym Śląsku, Warmii, Mazurach i Powiślu miały zadecydować plebiscyty.
+- Gdańsk staje się miastem wolnym pod kontrolą międzynarodową.
+
+Polska delegacja podpisała traktat 28 czerwca 1919 jednocześnie zgadzając się na mały traktat wersalski - poszanowanie praw mniejszości narodowych zamieszkujących nowe państwa.
