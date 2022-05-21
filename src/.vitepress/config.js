@@ -3,6 +3,7 @@ const path = require("path");
 const matter = require("gray-matter");
 const markdownItAttrs = require("markdown-it-attrs");
 const markdonwItContainer = require("markdown-it-container");
+const markdownItBlockEmbed = require("markdown-it-block-embed");
 
 const links = {};
 
@@ -73,7 +74,9 @@ module.exports = {
   markdown: {
     anchor: { permalink: false },
     config: (md) => {
-      md.use(markdownItAttrs).use(markdonwItContainer, "table-container");
+      md.use(markdownItAttrs)
+        .use(markdonwItContainer, "table-container")
+        .use(markdownItBlockEmbed);
     },
   },
 };
