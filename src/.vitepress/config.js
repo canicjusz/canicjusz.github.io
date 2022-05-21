@@ -76,7 +76,12 @@ module.exports = {
     config: (md) => {
       md.use(markdownItAttrs)
         .use(markdonwItContainer, "table-container")
-        .use(markdownItBlockEmbed);
+        .use(markdownItBlockEmbed, {
+          youtube: {
+            height: "auto",
+            width: "auto",
+          },
+        });
     },
   },
 };

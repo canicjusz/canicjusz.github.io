@@ -212,6 +212,15 @@ table
   width: 100%
   overflow: auto
 
+iframe
+  width: 640px
+  height: 390px
+  max-width: 100%
+
+code
+  white-space: pre-wrap
+  line-height: 1.4
+
 @media only screen and (max-width: 1000px)
   main
     width: calc(100vw - 61px)
@@ -222,6 +231,10 @@ table
         margin: 20px 0 0 0
         &:first-child
           margin: 0
+
+@media only screen and (max-width: 640px)
+  iframe
+    height: 250px
 
 @media only screen and (max-width: 500px)
   main
