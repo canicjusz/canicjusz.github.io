@@ -5,7 +5,7 @@ description: Poezia traduko de pola legia kanto el 1917 titolita "Ciężkie czas
 
 # Teda tempo por legiano (Ciężkie czasy legionera)
 
-Pola legia kanto el 1917 tradukita (poezie) de mi, ĝia aŭtoro estas nekonata. Sube estas pole kantita versio, bedaŭrinde la lasta strofo ne estas kantita.
+Pola legia kanto el 1917 tradukita (poezie) de mi, ĝia aŭtoro estas nekonata. Sube estas pole kantita versio, bedaŭrinde ne plene, mankas la lasta strofo.
 
 @[youtube](D90AjwmQlag)
 
