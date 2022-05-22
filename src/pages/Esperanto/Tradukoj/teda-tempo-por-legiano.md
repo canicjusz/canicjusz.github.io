@@ -20,7 +20,7 @@ Bajoneto flanke penda, un', du, tri,
 Aliflanke kartoĉujo,
 Havenda akvo-tenujo, un', du, un', du, tri!
 
-Komendant' matenvekiĝas, un', du, tri,
+Komandant' matenvekiĝas, un', du, tri,
 Soldato tuj ellitiĝas, un', du, tri,
 Se vi jam vestiĝis pene,
 Batalkampen marŝu jene, un', du, un', du, tri!

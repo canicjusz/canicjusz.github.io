@@ -1,4 +1,4 @@
-import{_ as n,c as a,o as t,a as e}from"./app.cb393901.js";const f='{"title":"Teda tempo por legiano","description":"Poezia traduko de pola legia kanto el 1917 titolita \\"Ci\u0119\u017Ckie czasy legionera\\".","frontmatter":{"title":"Teda tempo por legiano","description":"Poezia traduko de pola legia kanto el 1917 titolita \\"Ci\u0119\u017Ckie czasy legionera\\"."},"relativePath":"pages/Esperanto/Tradukoj/teda-tempo-por-legiano.md","lastUpdated":1653140388069}',i={},o=e("h1",{id:"teda-tempo-por-legiano-ciezkie-czasy-legionera"},"Teda tempo por legiano (Ci\u0119\u017Ckie czasy legionera)",-1),u=e("p",null,"Pola legia kanto el 1917 tradukita (poezie) de mi, \u011Dia a\u016Dtoro estas nekonata. Sube estas pole kantita versio, beda\u016Drinde ne plene, mankas la lasta strofo.",-1),r=e("div",{class:"block-embed block-embed-service-youtube"},[e("iframe",{type:"text/html",src:"//www.youtube.com/embed/D90AjwmQlag",frameborder:"0",width:"auto",height:"auto",webkitallowfullscreen:"",mozallowfullscreen:"",allowfullscreen:""})],-1),l=e("div",{class:"language-"},[e("pre",null,[e("code",null,`Teda tempo por legiano, un', du, tri,
+import{_ as n,c as a,o as t,a as e}from"./app.cb393901.js";const f='{"title":"Teda tempo por legiano","description":"Poezia traduko de pola legia kanto el 1917 titolita \\"Ci\u0119\u017Ckie czasy legionera\\".","frontmatter":{"title":"Teda tempo por legiano","description":"Poezia traduko de pola legia kanto el 1917 titolita \\"Ci\u0119\u017Ckie czasy legionera\\"."},"relativePath":"pages/Esperanto/Tradukoj/teda-tempo-por-legiano.md","lastUpdated":1653248578212}',i={},o=e("h1",{id:"teda-tempo-por-legiano-ciezkie-czasy-legionera"},"Teda tempo por legiano (Ci\u0119\u017Ckie czasy legionera)",-1),u=e("p",null,"Pola legia kanto el 1917 tradukita (poezie) de mi, \u011Dia a\u016Dtoro estas nekonata. Sube estas pole kantita versio, beda\u016Drinde ne plene, mankas la lasta strofo.",-1),r=e("div",{class:"block-embed block-embed-service-youtube"},[e("iframe",{type:"text/html",src:"//www.youtube.com/embed/D90AjwmQlag",frameborder:"0",width:"auto",height:"auto",webkitallowfullscreen:"",mozallowfullscreen:"",allowfullscreen:""})],-1),l=e("div",{class:"language-"},[e("pre",null,[e("code",null,`Teda tempo por legiano, un', du, tri,
 Turmento - lia kompano, un', du, tri,
 Fari multe, man\u011Di poke,
 Neplendante mar\u015Di longe, un', du, un', du, tri!
@@ -8,7 +8,7 @@ Bajoneto flanke penda, un', du, tri,
 Aliflanke karto\u0109ujo,
 Havenda akvo-tenujo, un', du, un', du, tri!
 
-Komendant' matenveki\u011Das, un', du, tri,
+Komandant' matenveki\u011Das, un', du, tri,
 Soldato tuj elliti\u011Das, un', du, tri,
 Se vi jam vesti\u011Dis pene,
 Batalkampen mar\u015Du jene, un', du, un', du, tri!
