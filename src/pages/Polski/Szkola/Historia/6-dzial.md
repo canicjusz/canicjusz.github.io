@@ -21,7 +21,7 @@ Zgromadzenie Narodowe (połączony sejm i senat) miały następnie za zadanie wy
 
 Komuniści nie chcieli dotrzymać kompromisu i chcieli początkowo forsować Czesława Kiszczaka na urząd premiera. Wtedy przekonano Stronnictwo Ludowe i Stronnictwo Demokratyczne do koalicji z Solidarnościowcami, na skutek czego PZPR został mniejszością w sejmie i Jaruzelski został w ten sposób zmuszony powierzyć rząd opozycjoniście - Tadeuszowi Mazowieckiemu. 12 września 1989 sejm zatwierdził skład nowego gabinetu.
 ### Zgrzyty w Solidarności
-Ogólnie to nie wszyscy zgadzali się na współpracę z komunistami, m.in. Andrzej Gwiazda, Kornel Morawiecki i Leszek Moczulski. Uznawali oni to zdradę za ideałów Sierpnia '80, przeciwstawiali się także braku rozliczeń ludzi z PZPR za zbrodnie systemu. Powstały organizacje typu Kongres Opozycji Antyustrojowej, które domagały się zupełnego odsunięcia komunistów od władzy. Radykałowie uważali, że negatywne skutki społeczne przemian gospodarczych spadną na nowy rząd, co doprowadzi do rychłego powrotu socjalistów na stołek.
+Ogólnie to nie wszyscy zgadzali się na współpracę z komunistami, m. in. Andrzej Gwiazda, Kornel Morawiecki i Leszek Moczulski. Uznawali oni to zdradę za ideałów Sierpnia '80, przeciwstawiali się także braku rozliczeń ludzi z PZPR za zbrodnie systemu. Powstały organizacje typu Kongres Opozycji Antyustrojowej, które domagały się zupełnego odsunięcia komunistów od władzy. Radykałowie uważali, że negatywne skutki społeczne przemian gospodarczych spadną na nowy rząd, co doprowadzi do rychłego powrotu socjalistów na stołek.
 ## Przemiany polityczne i ustrojowe
 Rząd składał się nie tylko z opozycjonistów, ale także wcześniej rządzących komunistów. Np. swoje stanowisko jako szef Ministerstwa Spraw Wewnętrznych zachował Czesław Kiszczak. Jednym z celów nowej ekipy było przywrócenie systemu demokratycznego. Z bomby zniesiono cenzurę, Urząd do spraw Wyznań i przywrócono naukę religii w szkołach. 29 grudnia 1989 doszło do nowelizacji Konstytucji PRL:
 - przywrócenie nazwy na Rzeczpospolita Polska i korony na Orle
@@ -84,3 +84,23 @@ W lipcu 1990r. przyjęto ustawę o prywatyzacji przedsiębiorstw państwowych. 6
 Bezrobocie było wynikiem likwidacji, restrukturyzacji i bankructwa państwowych przedsiębiorstw. Upadek ZSRS załamał eksport na rynki wschodnie. Zlikwidowano dużo PGR-ów, ludzie nie mieli perspektyw, a pomoc od państwa była niewystarczająca.
 
 Były protesty rolników ze względu na brak dofinansowań.
+
+## Polska w NATO i UE
+
+### Polska w NATO
+1. W 1994 Polska przystąpiła do programu Partnerstwo dla Pokoju, czyli ćwiczeń wojskowych 13 państw partnerskich na terenie Polski.
+2. 1995 - Przyjęcie przez niższą izbę amerykańskiego Kongresu uchwały przewidującej rozszerzenie NATO o m. in Polskę.
+3. W 1997 na szczycie NATO zaproszono Polskę w celu rozmów w sprawie przystąpienia.
+4. W 1999 zaproszono Polskę, Czechy i Węgry do członkostwa
+
+12 marca 1999 akt przystąpienia Polski do NATO został przekazany władzom USA i od tego czasu Polska jest oficjalnie członkiem sojuszu. Wtedy rozpoczęła się transformacja wojsk polskich, żeby przystosować je do standardów NATO-skich.
+### Polska w UE
+1. W 1991 Polska podpisała umowę stowarzyszeniową z Europejską Wspólnotą Gospodarczą.
+2. W 1994 złożono wniosek o przyjęcie Polski do Unii Europejskiej.
+3. 1998 - początek negocjacji akcesyjnych, po których nastąpił okres przystosowywania Polski do kryteriów obowiązujących w UE.
+4. 2003 - podpisanie traktatu akcesyjnego i przeprowadzenie referendum 7-8 czerwca, gdzie 77% obywateli było "za".
+5. 1 maja 2004 - Polska staje się członkiem Unii Europejskiej
+
+No Polska dostała w pizdę miliardów euro z funduszy, które przyspieszyły rozwój infrastruktury drogowej i kolejowej. Rolnictwo zostało objęte programem dopłat bezpośrednich. Polskie firmy skorzystały na swobodnym dostępie do europejskiego rynku i vice-versa. Ułatwiono także emigrację zarobkową, z czego skorzystało blisko 2 mln Polaków w latach 2004-2010.
+### Polska w Schengen
+21 grudnia 2007 roku Polska dołączyła do układu z Schengen. Zniesiono posterunki i kontrole między państwami partnerskimi.
