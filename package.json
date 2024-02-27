@@ -18,8 +18,8 @@
     "markdown-it-block-embed": "0.0.3",
     "markdown-it-container": "3.0.0",
     "markdown-it-video": "0.6.3",
-    "ncp": "2.0.0",
-    "trash-cli": "4.0.0",
+    "ncp": "^2.0.0",
+    "trash-cli": "^4.0.0",
     "vite": "2.6.13"
   }
 }
