@@ -54,3 +54,33 @@ Sejm II kadencji uchwalił małą konstytucję określającą ogólne zasady ust
 - pluralizm polityczny
 ### Reforma administracyjna i samorządowa
 W marcu 1990 uchwalono ustawę o samorządzie terytorialnym. I w wyborach do samorządów wygrali przedstawiciele lokalnych komitetów oraz Solidarności. W 1999 zlikwidowano podział Polski na 49 województw i wprowadzono nowy podział administracyjny na 16 województw.
+## Transformacja gospodarcza i społeczna
+Polska była pod koniec lat 80-tych na skraju bankructwa. Sytuacja była trudna, bo rząd Rakowskiego podjął decyzję urynkowienia cen żywności, a jako że te ceny zawsze były ustalane odgórnie, a dziura budżetowa była łatana przez dodruk pieniędzy, to doszło do hiperinflacji. Do tego Polska była zadłużona na grube miliardy pobrane za Gierka, a wierzyciele pukali już do drzwi.
+### Plan Balcerowicza
+Kolejnym wyzwaniem rządu była więc transformacja gospodarcza - przejście na gospodarkę wolnorynkową. Polska nie miała żadnego wzoru i trzeba było robić wszystko awangardowo. Wybrano Leszka Balcerowicza na Ministra Finansów, bo on się nie peniał. Jego zespół opracował plan Balcerowicza, który wszedł w życie 1 stycznia 1990, polegał on na:
+- przestawienie gospodarki z centralnie planowanej na rynką
+- ograniczenie deficytu budżetowego
+- zmniejszenie inflacji
+- prywatyzacja przedsiębiorstw państwowych
+
+Polska dostała trochę hajsu od Międzynarodowego Funduszu Walutowego i Banku Światowego, żeby wprowadzić plan. Aby ograniczyć infalcję wprowadzono:
+- sztywny kurs złotówki na poziomie 9500zł za dolara
+- wprowadzenie popiwka - zamrożenie płac w przedsiębiorstwach państwowych (był to podatek od nadwyżkowych płac)
+- obcięcie dotacji dla nierentownych sektorów
+- podniesienie stóp procentowych kredytów itd.
+Ogólnie to było chujowo, ale na początku 1992 sytuacja gospodarcza się ustabilizowała.
+### Prywatyzacja
+W lipcu 1990r. przyjęto ustawę o prywatyzacji przedsiębiorstw państwowych. 6 z tych przedsiębiorstw znalazło się na Giełdzie Papierów Wartościowych w Warszawie. (2 lipca 1991). W pełni sprywatyzowano handel już w roku 1990.
+### Skutki reform
+- masowe zwolnienia i ogromne bezrobocie w niektórych miejscach (Wałbrzych)
+- recesja do 1992
+- hiperinflacja do 1990
+- bliski upadek polskiej wsi i protesty
+- załamanie w wymianie gospodarczej ze związkiem sowieckim
+- umorzenie dużej części długów
+- podniesienie się poziomu konsumpcji
+- powstanie gospodarki wielosektorowej
+
+Bezrobocie było wynikiem likwidacji, restrukturyzacji i bankructwa państwowych przedsiębiorstw. Upadek ZSRS załamał eksport na rynki wschodnie. Zlikwidowano dużo PGR-ów, ludzie nie mieli perspektyw, a pomoc od państwa była niewystarczająca.
+
+Były protesty rolników ze względu na brak dofinansowań.
